@@ -46,7 +46,7 @@
     font-size: 55px;
     font-weight: bold;
     text-align: center;
-    margin-top: 50px;
+    padding: 50px 0px;
 }
 .description{
     font-size: 23px;
@@ -72,4 +72,52 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+/*service*/
+.service{
+    background-color: #000;
+}
+.service-title{
+    color: #fff;
+}
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    padding: 50px 0px;
+}
+.icon{
+    width: 50px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    box-shadow: 8px 8px 122px gray;
+    padding: 10px;
+    text-align: center;
+}
+/*footer*/
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0px;
+}
+.footer-title{
+    padding-bottom: 10px;
+}
+.scol >ul li{
+    list-style: none;
+}
+.rdcol >ul li{
+    list-style: none;
+}
+.footer-bottom{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0px;
 }
