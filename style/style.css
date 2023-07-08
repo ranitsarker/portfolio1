@@ -27,3 +27,49 @@
     color: #000;
 
 }
+/*banner section*/
+.banner-image{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url("../images/background.png"), linear-gradient(45deg, rgb(8,8,8), #000);
+    background-repeat: no-repeat;
+    color: #fff;
+    background-size: cover;
+
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.description{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.btn{
+    color: #fff;
+    background-color: red;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+
+}
+/*about us*/
+.about-container{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
